@@ -1,0 +1,33 @@
+<%- include('partials/header')%>
+
+    <div class="container feedhead">
+        <h1 class="emailheader">EMAIL SIGN-UP</h1>
+        <form action="/flash/signup" method="POST">
+            <div class="form-group">
+                <label class="emaillabel" for="firstname">NAME:</label>
+                <input type="text" placeholder="NAME" class="form-control" name="username" id="firstname" required>
+            </div>
+            <div class="form-group">
+                <label class="emaillabel" for="email">EMAIL:</label>
+                <input type="email" placeholder="EMAIL" class="form-control" name="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label class="emaillabel" for="password">PASSWORD:</label>
+                <input type="password" placeholder="PASSWORD" class="form-control" name="password" id="password" required>
+            </div>
+            <div class="form-group">
+                <label class="emaillabel" for="number">PHONE NUMBER:</label>
+                <input type="phonenumber" placeholder="PHONE NUMBER" class="form-control" name="phonenumber" id="phonenumber" required>
+            </div>
+            <div class="button">
+                <input type="submit" class="btn loginbtn">
+            </div>
+        </form>
+    </div>
+
+
+
+
+
+
+    <%- include('partials/footer')%>

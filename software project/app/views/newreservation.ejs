@@ -1,0 +1,48 @@
+<%- include("partials/header") %>
+
+
+
+    <div class=" reshead">
+        <h1 class="stdhsize">MAKE A RESERVATION</h1>
+        <BR></BR>
+
+
+        <form action="/flash/newreservation" method="POST">
+            <label class="rlabel">no.of peoples :</label>
+            <select class="form-control selectp" name="peoples" required>
+        <option>Number Of People </option>
+      <option value="1">1 Person</option>
+          <option value="2">2 Person</option>
+          <option value="3">3 Person</option>
+          <option value="4">4 Person</option>
+          <option value="5">5 Person</option>
+          <option value="6">6 Person</option>
+          <option value="7">7 Person</option>
+          <option value="8">8 Person</option>
+          <option value="9">9 Person</option>
+          <!-- <option>9+ Person</option> -->
+      </select><br><br>
+            <label class="rlabel"> timing :</label>
+            <select name="timing" class="form-control" required>
+
+
+                  
+    <option value="breakfast">breakfast</option>
+    <option value="lunch">lunch</option>
+
+    <option value="brunch">brunch</option>
+
+    <option value="dinner">dinner</option>
+
+
+</select><br><br>
+            <label class="rlabel  ">date :</label>
+            <input type="date" name="date" placeholder="date" class="form-control" required>
+
+    </div>
+    <button type="submit" class="btn loginbtn rbutton">submit </button>
+    </form>
+
+
+    </div>
+    <%- include("partials/footer") %>

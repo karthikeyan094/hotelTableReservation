@@ -1,0 +1,23 @@
+<%- include ('partials/header') %>
+
+
+    <div class="container">
+        <div class=" feedhead">
+
+            <form action="/flash/feedback" method="POST" class="feedbackform">
+                <h1 class="stdhsize">ENTER YOUR FEEDBACK</h1>
+
+                <label class="rlabel">NAME:</label><br>
+                <input type="text" name="name" placeholder="NAME" class="form-control selectp"> <br>
+                <label class=" rlabel "> FEEDBACK:</label> <br>
+
+                <textarea name="feedback" id=" " cols="30 " rows="10 " placeholder="FEEDBACK " class="form-control selectp"></textarea>
+                <button type="submit" class="loginbtn">submit</button>
+
+            </form>
+        </div>
+
+    </div>
+
+
+    <%- include('partials/footer')%>

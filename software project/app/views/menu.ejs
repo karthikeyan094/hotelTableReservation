@@ -1,0 +1,215 @@
+<%- include("partials/header") %>
+
+
+
+
+
+    <div>
+        <div class="back">
+            <h1 class="middle">MENU</h1>
+        </div>
+
+        <div class="menucontainer">
+            <button type="button" class="btn menubtn" data-toggle="modal" data-target="#exampleModalCenter3">
+                BREAKFAST
+               </button>
+
+            <button type="button" class="btn menubtn" data-toggle="modal" data-target="#exampleModalCenter1">
+                LUNCH
+              </button>
+            <button type="button" class="btn menubtn" data-toggle="modal" data-target="#exampleModalCenter2">
+                BRUNCH
+              </button>
+
+
+
+
+
+            <button type="button" class="btn menubtn" data-toggle="modal" data-target="#exampleModalCenter4">
+            SPECIAL
+           </button>
+            <button type="button" class="btn menubtn" data-toggle="modal" data-target="#exampleModalCenter">
+            DINNER
+          </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalCenterTitle">DINNER</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                        </div>
+                        <div class="modal-body">
+
+                            <ul class="dishul">
+                                <% for(var i=0;i<menu.length;i++){ %>
+                                    <li class="dishli">
+                                        <%= menu[i].dinnerdish %>
+                                    </li>
+                                    <% } %>
+
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalCenterTitle">LUNCH</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                        </div>
+                        <div class="modal-body">
+                            <ul class="dishul">
+                                <% for(var i=0;i<menu.length;i++){ %>
+                                    <li class="dishli">
+                                        <%= menu[i].lunchdish %>
+                                    </li>
+                                    <% } %>
+
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalCenterTitle">BRUNCH</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                        </div>
+                        <div class="modal-body">
+                            <ul class="dishul">
+                                <% for(var i=0;i<menu.length;i++){ %>
+                                    <li class="dishli">
+                                        <%= menu[i].brunchdish %>
+                                    </li>
+                                    <% } %>
+
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalCenterTitle">BREAK FAST</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                        </div>
+                        <div class="modal-body">
+                            <ul class="dishul">
+                                <% for(var i=0;i<menu.length;i++){ %>
+                                    <li class="dishli">
+                                        <%= menu[i].breakfastdish %>
+                                    </li>
+                                    <% } %>
+
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalCenter4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalCenterTitle">SPECIAL</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                        </div>
+                        <div class="modal-body">
+                            <ul class="dishul">
+                                <% for(var i=0;i<menu.length;i++){ %>
+                                    <li class="dishli">
+                                        <%= menu[i].specialdish %>
+                                    </li>
+                                    <% } %>
+
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br><br><br><br>
+            <h1 class="stdhsize"> <strong>MONDAY - FRIDAY</strong> </h1><br>
+            <p class="stdsize">The restaurent week menu will be available from march 1 through august 28 during weekdys lunch</p><br><br>
+            <p class="stdsize">Flash is a non-tipping restaurant.Hospitality included</p><br><br><br>
+
+
+
+
+        </div>
+
+
+
+
+        <%- include("partials/footer")%>

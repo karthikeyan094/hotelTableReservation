@@ -1,0 +1,25 @@
+<%- include("partials/header") %>
+
+
+    <div>
+        <div>
+            <form action="/flash/menu" method="POST" class="adddishform container">
+                <label class="stdsize">add breakfast:</label >
+                <input type="text" name="addbreakfast" placeholder="break fast dish" class="adddishinput"> <br>
+                <label class="stdsize">add lunch:</label>
+                <input type="text" name="addlunch" placeholder="lunch dish" class="adddishinput lunch"><br>
+                <label class="stdsize">add brunch:</label>
+                <input type="text" name="addbrunch" placeholder="brunch dish" class="adddishinput"><br>
+                <label class="stdsize"> add dinner:</label>
+                <input type="text" name="adddinner" placeholder="adddinnner" class="adddishinput"><br>
+                <label class="stdsize">add special:</label>
+                <input type="text" name="addspecial" placeholder="special dish" class="adddishinput"><br>
+
+
+                <button type="submit" class="menubtn addbtn">add</button>
+            </form>
+        </div>
+    </div>
+
+
+    <%- include("partials/footer") %>

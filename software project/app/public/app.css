@@ -1,0 +1,383 @@
+.nav-me {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    padding: auto 40px;
+}
+
+.active {
+    padding: auto 20px;
+    text-transform: uppercase;
+}
+
+.navbar-brand {
+    font-family: 'dancing scrib';
+    font-weight: 1000;
+    text-transform: uppercase;
+}
+
+.emailheader {
+    text-align: center;
+    padding-top: 50px;
+    color: black;
+    font-weight: 900;
+}
+
+.emaillabel {
+    text-decoration: burlywood;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.loginbtn {
+    background-color: black;
+    display: block;
+    color: whitesmoke;
+    margin-top: 30px;
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-bottom: 40px;
+}
+
+.btn:hover {
+    color: white;
+}
+
+.containerlogin {
+    background-color: #7b878c;
+    border-radius: 1rem;
+    padding-bottom: 8px;
+    opacity: 80%;
+}
+
+input {
+    margin-right: 40px;
+}
+
+.home {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.homehead {
+    font-weight: 800;
+    font-size: 80px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.about {
+    font-weight: 400;
+    font-size: 35px;
+    margin: 50px auto;
+    margin-bottom: 100px;
+}
+
+.menuspace {
+    padding: 100px;
+    /* margin: 50px; */
+    /* padding-bottom: 70px; */
+    text-transform: capitalize;
+    background-image: url("./images/m2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.dinningspace {
+    padding: 100px;
+    /* margin: 50px; */
+    /* padding-bottom: 70px; */
+    text-transform: capitalize;
+    background-image: url("./images/about.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.reservationspace {
+    padding: 100px;
+    /* padding-bottom: 70px; */
+    /* margin: 50px; */
+    text-transform: capitalize;
+    background-image: url("./images/res.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.menubutton {
+    padding: 15px 20px;
+    color: white;
+    background: brown;
+    border-radius: 10px;
+    margin-top: 100px auto;
+}
+
+.footerul {
+    margin: 10% 20%;
+    list-style-type: none;
+    color: whitesmoke;
+}
+
+.footerli {
+    padding: 15px;
+    font-size: 25px;
+    font-weight: 400;
+    border-bottom: solid 1px whitesmoke;
+    margin-right: 50px;
+}
+
+.footer {
+    background-color: black;
+}
+
+.footerli1 {
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 300;
+    margin-right: 50px;
+    color: whitesmoke;
+}
+
+.footerli1 a {
+    color: whitesmoke;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.back {
+    background-image: url("./images/m3.jpg");
+    width: 100%;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.middle {
+    color: whitesmoke;
+    padding: 300px;
+    font-size: 80px;
+    font-family: 'Crimson Text';
+    text-shadow: black;
+}
+
+.dishul {
+    list-style: none;
+}
+
+.dishli {
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-bottom: black 1px solid;
+    padding: 8px;
+}
+
+.fade {
+    opacity: 80%;
+}
+
+.menubtn {
+    padding: 10px 12px;
+    color: white;
+    background: brown;
+    border-radius: 10px;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.menucontainer {
+    background-color: white;
+    text-align: center;
+}
+
+.adddishform {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 40px auto;
+}
+
+.adddishinput {
+    padding: 6px;
+    margin: 10px;
+    border-radius: 4px;
+}
+
+.lunch {
+    margin-left: 27px;
+}
+
+.addbtn {
+    color: white;
+    background: brown;
+    padding: 6px 15px;
+    text-transform: uppercase;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.feedbackform {
+    margin: 40px;
+}
+
+.stdhsize {
+    font-family: 'Crimson Text';
+    font-size: 50px;
+}
+
+.stdsize {
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family: 'Cormorant Garamond';
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.hourstext {
+    text-align: center;
+}
+
+.h4 {
+    font-family: 'Crimson Text';
+    text-transform: uppercase;
+    margin-top: 60px;
+}
+
+.names {
+    list-style: none;
+    text-align: center;
+}
+
+.aboutname {
+    margin-bottom: 0px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.abouthead {
+    text-align: center;
+}
+
+.work {
+    text-transform: capitalize;
+    font-family: serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/* .fa-facebook {
+    color: rgb(59, 91, 152);
+    width: 20px;
+    height: 20px;
+} */
+
+.iconfont {
+    font-size: 20px;
+    font-weight: 300;
+    color: whitesmoke;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.review {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 1000;
+    margin: 40px;
+}
+
+.feedbackcontainer {
+    margin: 20px auto;
+    margin-left: 20px;
+}
+
+.feedbackname {
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+.feedbackdate {
+    font-size: 10px;
+    margin-left: 20px;
+}
+
+.feedbackbody {
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+}
+
+.rlabel {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.reshead {
+    margin: 5% 20%;
+    border: 1px solid black;
+    padding: 100px;
+    border-radius: 30px;
+}
+
+.selectp {
+    margin-right: 20px;
+}
+
+.show {
+    padding: 40px 40px;
+}
+
+.bill {
+    padding-left: 30px;
+}
+
+.timing {
+    text-transform: uppercase;
+    background-color: brown;
+    color: white;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+
+.feed {
+    margin: auto 40%;
+    margin-top: 40px;
+}
+
+.res {
+    margin-left: 43px;
+}
+
+.feedhead {
+    margin: 5% 10%;
+    border: 1px solid black;
+    padding: 50px;
+    border-radius: 30px;
+}
+
+.money {
+    font-size: 40px;
+    padding-left: 10px;
+    font-weight: 200;
+}

@@ -1,0 +1,29 @@
+<%- include('partials/header')%>
+
+    <div class="container">
+        <div class="container">
+            <h1 class="review">REVIEWS</h1>
+            <div class="feedbackcontainer">
+                <% for(var i=text.length-1;i>=0;i--){ %>
+
+
+                    <h3 class="feedbackname">
+                        <%= text[i].name%>
+                    </h3>
+
+                    <p class="feedbackdate">
+                        <%= text[i].time.toDateString() %>
+                    </p>
+                    <p class="feedbackbody">
+                        <%= text[i].feedbacktext%>
+                    </p>
+                    <hr>
+                    <% } %>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <%- include('partials/footer')%>

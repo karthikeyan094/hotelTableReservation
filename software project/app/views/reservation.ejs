@@ -1,0 +1,37 @@
+<%- include("partials/header") %>
+    <div class="container">
+        <br><br>
+        <a href="/flash/newreservation" class="menubtn res">NEW RESERVATION</a>
+        <div class="show">
+            <h1 class="stdhsize"> YOUR RESERVATIONS</h1>
+
+
+            <% for(var i=user.reservation.length-1;i>=0;i--){ %>
+                <div class="bill">
+                    <p class="insideres"><strong> RESERVING TABLE FOR :
+                </strong>
+                        <span class="timing"><%= user.reservation[i].timing %></span>
+                    </p>
+                    <p class="insideres"><strong>DATE:</strong>
+                        <%= user.reservation[i].date.toDateString() %>
+                    </p>
+                    <p class="insideres">
+                        <STRONG>NUMBER.OF.PEOPLES: </STRONG>
+                        <%= user.reservation[i].numberofpeoples %>
+                    </p>
+                    <p class="insideres"><strong>BILL AMOUNT:</strong> <span class="money">  ₹
+                        <%= user.reservation[i].numberofpeoples * 650 %></span>
+                    </p>
+                </div>
+                <hr>
+
+                <%  } %>
+                    <% if(user.reservation.length >= 1){ %>
+                        <a href="/flash/addfeedback" class="menubtn feed">ADD FEEDBACK</a>
+                        <% }else{ %>
+                            <p>NO RESERVATIONS YET</p>
+
+                            <%}%>
+        </div>
+    </div>
+    <%- include("partials/footer") %>
